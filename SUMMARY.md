@@ -1,4 +1,4 @@
 # Summary
 
-* koinotites
+* [koinotites](koinotites.md)
 
