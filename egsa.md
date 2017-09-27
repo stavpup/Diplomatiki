@@ -29,6 +29,7 @@ $ echo "22.501312 38.482302" | cs2cs +init=epsg:4326 +to +init=epsg:2100
 echo "369131.96 4260105.92 -31.32" | cs2cs +init=epsg:2100 +to +init=epsg:4326
 
 που δίνει: 22d30'4.723"E 38d28'56.287"N -0.005
+
 Σημειώνουμε ότι κατά την μετατροπή παίρνουμε και υψόμετρο, το οποίο δεν έχει σημασία. Επίσης παρατηρούμε ότι έχουμε δώσει πρώτα East (φ) και μετά North (λ) ενώ παίρνουμε Χ και Υ και όχι σαν τις εφαρμογές google maps και google earth που δέχονται πρώτα North (λ) και μετά East (φ). Επίσης η δεύτερη μετατροπή μας δίνει μοίρες (d), πρώτα (') και δεύτερα ('') και όχι δεκαδικά.
 Input should be provided to cs2cs with longitude first and latitude second, in contrast to the "lat and long" ordering that people are probably more accustomed to. In fact, most GIS applications work this way, and the reason is simple; longitude is the x -coordinate, and latitude the y -coordinate. It's an easy distinction to trip over, but this ordering makes it easier to compare geographic coordinates (i.e., long and lat) to other kinds of coordinate systems.
 
