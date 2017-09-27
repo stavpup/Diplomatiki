@@ -12,7 +12,8 @@ sudo apt-get update
 
 sudo apt-get install autoproject proj-bin
 
-τα οποία περιέχουν το πακέτο proj. Το proj είναι μία χαρτογραφική βιβλιοθήκη http://trac.osgeo.org/proj/
+τα οποία περιέχουν το πακέτο proj. Το proj είναι μία χαρτογραφική βιβλιοθήκη http://trac.osgeo.org/proj/.
+
 Για το proj, ο κωδικός του WGS84 είναι epsg:4326 και του ΕΓΣΑ87 είναι το epsg:2100, οπότε έχουμε τις εντολές τερματικού: cs2cs +init=epsg:4326 +to +init=epsg:2100 για μετατροπή από WGS σε ΕΓΣΑ cs2cs +init=epsg:2100 +to +init=epsg:4326 για το αντίστροφο
 όπου cs2cs είναι μία εφαρμογή του proj.
 
