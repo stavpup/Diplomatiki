@@ -9,6 +9,7 @@
 Εγκαθιστούμε τα πακέτα autoproject και proj-bin
 
 sudo apt-get update
+
 sudo apt-get install autoproject proj-bin
 
 τα οποία περιέχουν το πακέτο proj. Το proj είναι μία χαρτογραφική βιβλιοθήκη http://trac.osgeo.org/proj/
