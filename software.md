@@ -30,6 +30,9 @@ http://www.qgis.org/
 Libreoffice, μια ελεύθερη σουίτα γραφείου:
 http://el.libreoffice.org/
 
+Onlyoffice, μια ελεύθερη σουίτα γραφείου:
+https://www.onlyoffice.com/download-desktop.aspx
+
 Apache OpenOffice, μια ελεύθερη σουίτα γραφείου:
 http://www.openoffice.org/el/
 
